@@ -1,3 +1,6 @@
+---
+tags: RDBMS, MySQL, transaction
+---
 # MySQL 트랜잭션
 
 태그: 트랜잭션, Lock, MySQL, RDB

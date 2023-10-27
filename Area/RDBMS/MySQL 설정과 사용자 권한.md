@@ -1,10 +1,6 @@
-# MySQL 설정과 사용자 권한
-
-태그: MySQL, RDB
-Date: September 8, 2023 2:46 PM
-공개 여부: 공개
-설명: MySQL 설정과 사용자 권한에 대한 공부 내용 요약 정리
-카테고리: 데이터베이스
+---
+tags: RDBMS, MySQL
+---
 
 ![Untitled](Untitled%2023.png)
 

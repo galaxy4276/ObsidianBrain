@@ -1,7 +1,6 @@
 ---
 tags: react
 ---
-![[reactjs-javascript-programming-programming-language-hd-wallpaper-preview.jpg]]
 
 ## Virtual DOM
 

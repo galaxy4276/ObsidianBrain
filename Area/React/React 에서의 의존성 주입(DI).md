@@ -2,8 +2,6 @@
 tags: react
 ---
 
-![[reactjs-javascript-programming-programming-language-hd-wallpaper-preview.jpg]]
-
 React 를 이용하면서 DI 패턴을 사용해야하는 이유와 방법에 대해 서술하겠습니다.
 
 ## 컴포넌트 내 비즈니스 로직이 있으면 안되는 이유

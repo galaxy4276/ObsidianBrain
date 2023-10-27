@@ -1,3 +1,6 @@
+---
+tags: RDBMS, MySQL, index
+---
 # MySQL 인덱스
 
 태그: B-Tree, MySQL, 인덱스

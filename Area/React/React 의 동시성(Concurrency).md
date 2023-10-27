@@ -1,14 +1,6 @@
 ---
 tags: react
 ---
-# React 의 동시성(Concurrency)
-
-태그: 동시성, React.js
-Date: September 9, 2023 3:06 PM
-공개 여부: 공개
-설명: React.js 팀에서 제시하는 동시성 개념
-카테고리: 프런트엔드
-
 ![Untitled](Untitled%2067.png)
 
 React 에서 v18 부터 동시성 기능을 지원합니다.

@@ -1,3 +1,6 @@
+---
+tags: RDBMS, index
+---
 ![느린 이유 요약](Untitled%2050.png)
 
 느린 이유 요약

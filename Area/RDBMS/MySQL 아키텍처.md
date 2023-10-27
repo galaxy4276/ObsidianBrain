@@ -1,10 +1,6 @@
-# MySQL 아키텍처
-
-태그: MySQL, RDB
-Date: September 9, 2023 7:00 PM
-공개 여부: 공개
-설명: MySQL 의 아키텍처 구성과 각 요소의 역할
-카테고리: 데이터베이스
+---
+tags: RDBMS, MySQL
+---
 
 ![Untitled](Untitled%2023.png)
 
