@@ -1,0 +1,47 @@
+---
+tags: react
+---
+![[reactjs-javascript-programming-programming-language-hd-wallpaper-preview.jpg]]
+
+## Virtual DOM
+
+인메모리 DOM 복제본으로, React UI 변경 사항을 효과적으로 추적하고 필요한 컴포넌트만 갱신하여 렌더링 속도와 효율을 높이고 웹 앱의 전반적인 성능을 향상시키는 역할을 수행합니다.
+
+## Virtual DOM 과 Real DOM 의 차이
+
+가장 핵심은 변경된 Document Object 에 대한 추가/제거 프로세스 효율의 차이입니다.
+
+**실제 DOM** 은 새 요소를 DOM 에 추가하면서 전체 하위 트리의 레이아웃과 스타일을 다시 계산하므로 상당한 크기의 하위 트리가 존재하는 경우 계산 비용이 꽤 많이 들 수 있습니다.
+
+**가상 DOM** 은 **변경된 부분만을 가상 DOM (인메모리) 에서 갱신하여 반영**하기 때문에 하위 컴포넌트를 업데이하는데 필요한 계산이 적어져 성능이 실제 DOM 대비 효율적입니다.
+
+- 실제 DOM 을 직접 업데이트할 때 필요한 값 비싼 재계산을 수행하지 않고 신속하고 효과적으로 Element 를 변경할 수 있습니다.
+
+## Virtual DOM 동작 방식
+
+클릭 시 상태를 수정하는 버튼이 존재한다 가정할 때, 상태 변경이 발생하면 즉시 새로운 가상 DOM 을 생성하여 React 메모리 내에서 두 개의 가상 DOM 을 가지게 됩니다.
+
+<aside>
+💡 두 개의 가상 DOM 은 이전 버전과 상태 변경이 있는 업데이트 된 버전을 의미합니다.
+
+</aside>
+
+여기서 중요한 건 가상 DOM 은 실제 DOM 이 아니기 때문에 웹사이트에는 아직 아무런 변경이 발생하지 않는다는 점입니다.
+
+![Untitled](Untitled%2091.png)
+
+이제 업데이트 버전과 이전 버전의 두 가상 DOM 객체의 차이를 비교해야 하며 이런 과정을 `Diffing process` 라고 합니다.
+
+`Diffing process` 를 수행한 후, React 는 변경된 특정 상태를 메모한 다음 해당 Element 와 연관된 DOM의 전체 부분을 다시 빌드하는 대신 **실제 DOM 에서 해당 상태만 변경**합니다.
+
+이러한 과정을 `재조정(Reconciliation)` 이라고 합니다.
+
+## 마치며
+
+가상 DOM 은 실제 DOM 과 다르게 내부적으로 Diffing process 와 Reconciliation 과정을 수행하여 사용자에게 더 나은 경험과 속도를 제공하며 개발자에겐 선언적 API 를 제공하여 더 나은 개발 경험을 제공할 수 있습니다.
+
+실제로 두 과정에 대한 코드를 분석해보면 좋겠지만 너무 많은 시간이 들기 때문에 이론적으로 어느정도 바삭하게 알아두면 리액트 프레임워크 사용에 있어 전반적으로 더 많은 이해와 숙련된 코드를 작성할 수 있을 듯 합니다.
+
+## References
+
+****[Open Replay’s React's Virtual DOM](https://blog.openreplay.com/reacts-virtual-dom/)****

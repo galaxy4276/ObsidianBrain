@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "BoBxlTypescript",
+      "BoBxlSpringBoot",
+      "RiReactjsFill",
+      "BoBxlPostgresql",
+      "BoBxlNodejs",
+      "RiChromeLine"
+    ],
+    "recentlyUsedIconsSize": 6,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconsBackgroundCheckEnabled": true
+  },
+  "Area/Spring/@Import 탐구.md": "BoBxlSpringBoot",
+  "Area/Java": "BoBxlJava",
+  "Area/AWS": "BoBxlAws",
+  "Area/디자인 패턴": "BoBxPalette",
+  "Area/시스템 아키텍처": "RiComputerFill",
+  "Area/알고리즘 풀이": "RiSketching",
+  "Area/자료구조": "RiComputerFill",
+  "Area/컴퓨터 사이언스": "RiComputerFill",
+  "Area/HTTP": "RiChromeLine",
+  "Area/JPA & Hibernate": "BoBxlJava",
+  "Area/NodeJS": "BoBxlNodejs",
+  "Area/RDBMS": "BoBxlPostgresql",
+  "Area/React": "RiReactjsFill",
+  "Area/Spring": "BoBxlSpringBoot",
+  "Area/TypeScript": "BoBxlTypescript"
+}
