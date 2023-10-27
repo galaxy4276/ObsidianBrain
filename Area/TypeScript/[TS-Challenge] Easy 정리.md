@@ -52,7 +52,7 @@ type TupleToObject<T extends readonly string[]> = {
 }
 ```
 
-**`[P in T[number]]`**는 **`T`** 배열의 모든 요소를 순회하면서 각 요소를 키로 가지는 속성을 생성합니다. **`P`**의 값은 각 요소 자체가 된다.
+**`[P in T[number]]`**는 **`T`** 배열의 모든 요소를 순회하면서 각 요소를 키로 가지는 속성을 생성합니다. **`P`**의 값은 각 요소 자체가 된다. 
 
 ### References
 
