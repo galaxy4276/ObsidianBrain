@@ -4,5 +4,6 @@
   "obsidian-git",
   "obsidian-icon-folder",
   "make-md",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-plugin-toc"
 ]
