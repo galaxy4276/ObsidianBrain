@@ -1,4 +1,11 @@
 {
   "alwaysUpdateLinks": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }
