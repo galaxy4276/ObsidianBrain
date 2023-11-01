@@ -1,3 +1,6 @@
+---
+tags: caching, spring
+---
 # Spring Boot 에서 Cache-Aside
 
 태그: CACHE, Cache-Aside, Spring, redis

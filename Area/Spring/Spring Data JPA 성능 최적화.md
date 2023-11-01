@@ -1,3 +1,6 @@
+---
+tags: spring, jpa, hibernate
+---
 # Spring Data JPA 성능 최적화
 
 태그: JPA, 데이터베이스, 최적화

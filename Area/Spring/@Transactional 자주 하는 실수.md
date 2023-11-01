@@ -1,3 +1,6 @@
+---
+tags: spring, transaction
+---
 ![[springboot-banner-01.jpg]]
 # 1. 동일한 클래스 내에서 호출
 
