@@ -61,7 +61,8 @@
       "Project",
       "Area",
       "Area/DailyScrum",
-      "Area/Spring"
+      "Area/Spring",
+      "Area/Java"
     ]
   },
   "expandedSpaces": [
@@ -102,7 +103,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698898467990,
+  "spacesAutoBackupLast": 1698911833781,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
