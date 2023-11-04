@@ -63,7 +63,11 @@
       "Area/DailyScrum",
       "Area/Spring",
       "Area/Java",
-      "Project/TREED"
+      "Project/TREED",
+      "Area/DailyScrum",
+      "Resource/Templates",
+      "Area/자료구조",
+      "Area/알고리즘 풀이"
     ]
   },
   "expandedSpaces": [
@@ -104,7 +108,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699077945745,
+  "spacesAutoBackupLast": 1699124457828,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
