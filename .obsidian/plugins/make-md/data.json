@@ -72,7 +72,11 @@
       "Resource/Templates",
       "Resource/Templates",
       "Resource/cooking recipes",
-      "Area/알고리즘 풀이"
+      "Area/알고리즘 풀이",
+      "Area/Java",
+      "Area/Java",
+      "Area/Nginx",
+      "Area/NodeJS"
     ]
   },
   "expandedSpaces": [
@@ -113,7 +117,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699184297696,
+  "spacesAutoBackupLast": 1699203134945,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
