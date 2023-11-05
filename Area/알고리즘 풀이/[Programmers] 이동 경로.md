@@ -1,3 +1,6 @@
+---
+tags: algorithm
+---
 ![[Pasted image 20231026085120.png]]
 ```java
 import java.util.StringTokenizer;

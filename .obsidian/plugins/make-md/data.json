@@ -67,6 +67,11 @@
       "Area/DailyScrum",
       "Resource/Templates",
       "Area/자료구조",
+      "Area/알고리즘 풀이",
+      "Area/DailyScrum",
+      "Resource/Templates",
+      "Resource/Templates",
+      "Resource/cooking recipes",
       "Area/알고리즘 풀이"
     ]
   },
@@ -108,7 +113,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699124457828,
+  "spacesAutoBackupLast": 1699184297696,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

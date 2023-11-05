@@ -1,10 +1,7 @@
+---
+tags: algorithm
+---
 # [Programmers] 추억 점수
-
-태그: HashMap, Level 1, PS
-Date: September 9, 2023 2:26 PM
-공개 여부: 공개
-설명: 추억점수 풀이
-카테고리: 알고리즘
 
 ![Untitled](Untitled%2049.png)
 
