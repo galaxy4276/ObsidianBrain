@@ -77,7 +77,9 @@
       "Area/Java",
       "Area/Nginx",
       "Area/NodeJS",
-      "Area/Spring"
+      "Area/Spring",
+      "Area/Spring",
+      "Area/시스템 아키텍처"
     ]
   },
   "expandedSpaces": [
@@ -118,7 +120,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699264150122,
+  "spacesAutoBackupLast": 1699266740128,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

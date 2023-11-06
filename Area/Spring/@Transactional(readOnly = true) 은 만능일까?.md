@@ -57,3 +57,11 @@ readOnly 를 명시하면 해당 엔티티 대상에 대해 더티 체킹을 수
 그러니 이러한 부분을 주의해서 사용해야만 할 것 같습니다.
 
 
+# References
+
+[Is @Transactional(readOnly=true) a silver bullet?
+](https://medium.com/@jkha7371?source=post_page-----1dbf130c97f8--------------------------------)
+[# 더티 체킹 (Dirty Checking)이란?](https://jojoldu.tistory.com/415)
+
+https://willseungh0.tistory.com/75
+[# JPA & Hibernate Flush Mode](https://keencho.github.io/posts/jpa-flush/)
