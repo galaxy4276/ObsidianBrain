@@ -79,7 +79,9 @@
       "Area/NodeJS",
       "Area/Spring",
       "Area/Spring",
-      "Area/시스템 아키텍처"
+      "Area/시스템 아키텍처",
+      "Area",
+      "Area/자료구조"
     ]
   },
   "expandedSpaces": [
@@ -120,7 +122,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699269275173,
+  "spacesAutoBackupLast": 1699300385029,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
