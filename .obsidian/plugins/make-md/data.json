@@ -81,7 +81,9 @@
       "Area/Spring",
       "Area/시스템 아키텍처",
       "Area",
-      "Area/자료구조"
+      "Area/자료구조",
+      "Project/TREED",
+      "Project/TREED"
     ]
   },
   "expandedSpaces": [
@@ -122,7 +124,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699343082115,
+  "spacesAutoBackupLast": 1699373958857,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
