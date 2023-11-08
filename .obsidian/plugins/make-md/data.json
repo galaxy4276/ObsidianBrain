@@ -83,7 +83,8 @@
       "Area",
       "Area/자료구조",
       "Project/TREED",
-      "Project/TREED"
+      "Project/TREED",
+      "Area/TypeScript"
     ]
   },
   "expandedSpaces": [
@@ -124,7 +125,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699422066469,
+  "spacesAutoBackupLast": 1699423747421,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

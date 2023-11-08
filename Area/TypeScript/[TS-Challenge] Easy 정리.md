@@ -1,9 +1,10 @@
+---
+tags: typescript
+---
 
 ![Untitled](Untitled%2030.png)
 
 # Pick 유틸리티 클래스 타입 작성해보기
-
-[[]]
 
 ```tsx
 type MyPick<K, T extends keyof K> = {
