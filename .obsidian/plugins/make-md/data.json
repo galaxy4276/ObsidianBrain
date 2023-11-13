@@ -85,7 +85,10 @@
       "Project/TREED",
       "Project/TREED",
       "Area/TypeScript",
-      "Area/DailyScrum"
+      "Area/DailyScrum",
+      "Project/TREED",
+      "Project/승아님외주팀",
+      "Project/승아님외주팀"
     ]
   },
   "expandedSpaces": [
@@ -126,7 +129,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699836748425,
+  "spacesAutoBackupLast": 1699841253851,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
