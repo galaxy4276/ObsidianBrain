@@ -32,3 +32,69 @@ Hibernate 는  **데이터베이스 데이터를 메모리에 캐시할** 수 
 데이터의 무결성을 보장하는 데 도움이 되는 기본 제공 트랜잭션 관리 지원을 제공합니다.
 
 # JPA 와 함께 DB 성능을 최적화하는 법
+
+## 적절한 인덱스 사용
+인덱스는 **데이터베이스 테이블에서 데이터 검색 작업의 속도를 향상시키는** 데이터 구조입니다.
+인덱스는 책의 색인처럼 작동하여 데이터베이스가 쿼리의 WHERE 절을 만족하거나 JOIN 연산에 관련된 행을 빠르게 찾을 수 있게 해줍니다. 
+인덱스가 없으면 데이터베이스가 전체 테이블을 스캔해야 하므로 대규모 데이터 셋의 경우 속도가 느려질 수 있습니다.
+```java
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;  
+import javax.persistence.*;  
+  
+@Entity  
+@Table(name = "products")  
+@EntityListeners(AuditingEntityListener.class)  
+public class Product {  
+@Id  
+@GeneratedValue(strategy = GenerationType.IDENTITY)  
+private Long id;  
+  
+@Column(unique = true)  
+private String sku;  
+  
+@Column  
+private String name;  
+  
+// Add index to sku field  
+@Index(name = "idx_sku")  
+@Column(unique = true)  
+private String sku;  
+  
+// ...  
+}
+```
+### 고려사항
+- 인덱스에는 장단점이 있습니다. **읽기** 작업의 속도는 빨라지지만 데이터베이스가 인덱스 데이터 구조를 유지해야 하므로 **쓰기** (삽입, 업데이트, 삭제) 작업의 속도가 느려질 **수** 있습니다. 
+- 따라서 인덱싱할 열을 신중하게 선택해야 하며, **WHERE 절이나 JOIN 연산에서 자주 사용되는** 열을 중심으로 선택해야 합니다.
+- 단일 열 인덱스 외에도 여러 열의 조합을 기반으로 자주 쿼리하는 경우 여러 열에 복합 인덱스를 만들 수 있습니다.
+
+## 캐싱(Redis) 사용
+
+```java
+@Service  
+public class ProductService {  
+@Autowired  
+private ProductRepository productRepository;  
+  
+@Cacheable("products")  
+public List<Product> getAllProducts() {  
+	return productRepository.findAll();  
+}  
+  
+@Cacheable(value = "products", key = "#id")  
+public Product getProductById(Long id) {  
+	return productRepository.findById(id).orElse(null);  
+}  
+  
+@CacheEvict(value = "products", allEntries = true)  
+public void clearProductCache()   
+}
+```
+
+## Bulk Update 사용
+다수 행에 대해 개별 업데이트를 수행하는 방식은 여러 SELECT, UPDATE 문을 생성하므로 데이터베이스 라운드 트립이 발생하고 오버헤드가 증가합니다.
+
+대조적으로 대량 업데이트 접근 방식은 `@Modifying` 주석이 포함된 단일 JPQL(Java 지속성 쿼리 언어) 쿼리를 사용합니다. 
+이 쿼리는 기준을 충족하는 엔티티의 `사용 가능한` 속성을 개별적으로 메모리에 로드하지 않고 직접 업데이트합니다. 이 쿼리는 **단일 SQL UPDATE 문을 수행하므로 더 효율적이며 데이터베이스 라운드 트립과 오버헤드를 크게 줄여줍니다**.
+
+다른 접근 방식으로 JDBC의 일괄 처리 방식을 이용할 수 있습니다.
