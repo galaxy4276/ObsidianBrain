@@ -88,7 +88,13 @@
       "Area/DailyScrum",
       "Project/TREED",
       "Project/승아님외주팀",
-      "Project/승아님외주팀"
+      "Project/승아님외주팀",
+      "Area/Redis",
+      "Area/Redis",
+      "Area/Redis",
+      "Area/Redis",
+      "Area/Redis",
+      "Area/JPA & Hibernate"
     ]
   },
   "expandedSpaces": [
@@ -129,7 +135,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700038445719,
+  "spacesAutoBackupLast": 1700039728789,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
