@@ -94,7 +94,8 @@
       "Area/Redis",
       "Area/Redis",
       "Area/Redis",
-      "Area/JPA & Hibernate"
+      "Area/JPA & Hibernate",
+      "Project/TREED"
     ]
   },
   "expandedSpaces": [
@@ -135,7 +136,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700039728789,
+  "spacesAutoBackupLast": 1700054417105,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
