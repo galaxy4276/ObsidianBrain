@@ -97,7 +97,8 @@
       "Area/JPA & Hibernate",
       "Project/TREED",
       "Area/개발자 성장",
-      "Area/AWS"
+      "Area/AWS",
+      "Project/23년 하노잉"
     ]
   },
   "expandedSpaces": [
@@ -138,7 +139,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700546300104,
+  "spacesAutoBackupLast": 1700675670168,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
