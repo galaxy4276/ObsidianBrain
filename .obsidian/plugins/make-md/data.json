@@ -97,11 +97,12 @@
       "Project/23년 하노잉",
       "Project/TREED",
       "Project/23년 하노잉",
-      "Area/DailyScrum",
       "Area/Network",
       "Area/Network",
       "Area/Network",
-      "Area/Spring"
+      "Area/Spring",
+      "Area/Java",
+      "Area/Java"
     ]
   },
   "expandedSpaces": [
@@ -142,7 +143,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701130795254,
+  "spacesAutoBackupLast": 1701133450407,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
