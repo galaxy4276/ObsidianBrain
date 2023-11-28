@@ -103,7 +103,10 @@
       "Area/Spring",
       "Area/Java",
       "Area/Java",
-      "Area/React"
+      "Area/React",
+      "Area",
+      "Area/docker",
+      "Area/Docker"
     ]
   },
   "expandedSpaces": [
@@ -144,7 +147,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701136094954,
+  "spacesAutoBackupLast": 1701137805625,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
