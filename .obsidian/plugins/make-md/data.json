@@ -106,7 +106,9 @@
       "Area/React",
       "Area",
       "Area/docker",
-      "Area/Docker"
+      "Area/Docker",
+      "Area/디자인 패턴",
+      "Area/Spring"
     ]
   },
   "expandedSpaces": [
@@ -147,7 +149,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701302921784,
+  "spacesAutoBackupLast": 1701307637329,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
