@@ -6,5 +6,7 @@
   "make-md",
   "obsidian-tasks-plugin",
   "obsidian-plugin-toc",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "highlightr-plugin",
+  "cm-editor-syntax-highlight-obsidian"
 ]
