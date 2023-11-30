@@ -26,34 +26,105 @@ tags: saga-pattern, spring
 ### 예약 서비스 코드
 
 ```java
-@Service  
-public class BookingService {  
-@Autowired  
-private JmsTemplate jmsTemplate;  
-  
-@Autowired  
-private BookingRepository bookingRepository;  
-  
-@Transactional  
-public void makeBooking(Booking booking) {  
-bookingRepository.save(booking);  
-jmsTemplate.convertAndSend("bookingQueue", booking);  
-}  
-@Transactional  
-public void confirmBooking(Long bookingId) {  
-Booking booking = bookingRepository.findById(bookingId).orElse(null);  
-if (booking != null) {  
-booking.setConfirmed(true);  
-bookingRepository.save(booking);  
-}  
-}  
-@Transactional  
-public void cancelBooking(Long bookingId) {  
-Booking booking = bookingRepository.findById(bookingId).orElse(null);  
-if (booking != null) {  
-bookingRepository.delete(booking);  
-}  
-}  
+@Service
+public class BookingService {
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    
+    @Autowired
+    private BookingRepository bookingRepository;
+    
+    @Transactional
+    public void makeBooking(Booking booking) {
+        bookingRepository.save(booking);
+        jmsTemplate.convertAndSend("bookingQueue", booking);
+    }
+    @Transactional
+    public void confirmBooking(Long bookingId) {
+        Booking booking = bookingRepository.findById(bookingId).orElse(null);
+        if (booking != null) {
+            booking.setConfirmed(true);
+            bookingRepository.save(booking);
+        }
+    }
+    @Transactional
+    public void cancelBooking(Long bookingId) {
+        Booking booking = bookingRepository.findById(bookingId).orElse(null);
+        if (booking != null) {
+            bookingRepository.delete(booking);
+        }
+    }
+}
+```
+
+### 결제 서비스 코드
+```java
+@Service
+public class PaymentService {
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    
+    @Autowired
+    private PaymentRepository paymentRepository;
+
+    @Transactional
+    public void processPayment(Booking booking) {
+        Payment payment = new Payment();
+        payment.setBookingId(booking.getId());
+        payment.setAmount(calculatePaymentAmount(booking));
+        paymentRepository.save(payment);
+        jmsTemplate.convertAndSend("paymentQueue", payment);
+    }
+    @Transactional
+    public void confirmPayment(Long bookingId) {
+        Payment payment = paymentRepository.findByBookingId(bookingId);
+        if (payment != null) {
+            payment.setPaid(true);
+            paymentRepository.save(payment);
+        }
+    }
+    @Transactional
+    public void cancelPayment(Long bookingId) {
+        Payment payment = paymentRepository.findByBookingId(bookingId);
+        if (payment != null) {
+            paymentRepository.delete(payment);
+        }
+    }
+    private double calculatePaymentAmount(Booking booking) {
+        // Implement your payment calculation logic here
+        return booking.getRoomPrice() * booking.getNumNights();
+    }
+}
+```
+
+### 사가 오케스트레이터 코드
+```java
+@Service
+public class SagaOrchestrator {
+    @Autowired
+    private BookingService bookingService;
+    
+    @Autowired
+    private PaymentService paymentService;
+
+    @JmsListener(destination = "bookingQueue")
+    public void handleBooking(Booking booking) {
+         
+    }
+    @JmsListener(destination = "paymentQueue")
+    public void handlePayment(Payment payment) {
+        try {
+      // step 2: confirm payment is success or failed. If it's failed
+      // It's failure, throw exception and rollback.  
+            paymentService.confirmPayment(payment.getBookingId());
+      // Step 3: Mark status is comfirmed in booking.
+      bookingService.confirmBooking(payment.getBookingId())
+        } catch (Exception e) {
+            // Handle exceptions and initiate compensation
+		    bookingService.cancelBooking(booking.getId());
+            paymentService.cancelPayment(payment.getBookingId());
+        }
+    }
 }
 ```
 

@@ -23,7 +23,9 @@
     },
     "iconInTabsEnabled": true,
     "iconInTitleEnabled": true,
-    "iconsBackgroundCheckEnabled": true
+    "iconsBackgroundCheckEnabled": true,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true
   },
   "Area/Spring/@Import 탐구.md": "BoBxlSpringBoot",
   "Area/Java": "BoBxlJava",
