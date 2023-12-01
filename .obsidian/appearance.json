@@ -1,6 +1,7 @@
 {
-  "accentColor": "#25b1d4",
-  "theme": "moonstone",
+  "accentColor": "",
+  "theme": "system",
   "textFontFamily": "Pretendard",
-  "interfaceFontFamily": "Pretendard"
+  "interfaceFontFamily": "Pretendard",
+  "cssTheme": "Things"
 }

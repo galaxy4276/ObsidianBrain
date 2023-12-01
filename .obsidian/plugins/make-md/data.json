@@ -40,7 +40,13 @@
     "resources",
     "Developer",
     "MyHeart",
-    null
+    null,
+    "//Area",
+    "//Area/Area/HTTP",
+    "//Area/Area/AWS",
+    "//Area/Area/Spring",
+    "//Area/Area/디자인 패턴",
+    "Spaces/Home/Spaces/resources"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -65,7 +71,8 @@
   "waypoints": [
     "Spaces/Home",
     "/",
-    "spaces://$tags"
+    "spaces://$tags",
+    null
   ],
   "rootSpaces": [
     "Spaces/resources",
