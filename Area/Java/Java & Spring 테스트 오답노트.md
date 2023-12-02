@@ -143,6 +143,3 @@ JPA + Hibernate 를 의미할 수도 있다.
 private 메소드를 테스트하고 싶은 느낌이 든다면, 사실 private 메서드가 아니어야 하거나 다른 클래스로 분리/책임을 위임하여 public 으로 만들라는 신호다.
 should I Test private method?
 
-
-
-
