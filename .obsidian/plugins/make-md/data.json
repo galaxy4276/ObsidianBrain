@@ -57,7 +57,14 @@
     "Spaces/Home///Project/Project/TREED",
     "Spaces/Home///Project/Project/23년 하노잉",
     "Spaces/Home///Project/Project/Songdo Dev Fest",
-    "Spaces/Home///Project/Project/Songdo Dev Fest"
+    "Spaces/Home///Project/Project/Songdo Dev Fest",
+    "Spaces/Home//",
+    "Spaces/Home///Project",
+    "Spaces/Home///Project/Project/23년 하노잉",
+    "Spaces/Home///Project",
+    "Spaces/Home///Project/Project/Vetnamese Vetnames",
+    "Spaces/Home///Project/Project/Vetnamese",
+    "Spaces/Home///Project/Project/Vetnamese"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -88,7 +95,8 @@
   "rootSpaces": [
     "Spaces/resources",
     "Spaces/Home",
-    "Project/Songdo Dev Fest"
+    "Project/Songdo Dev Fest",
+    "Project/Vetnamese Vetnames"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
