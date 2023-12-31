@@ -5,7 +5,7 @@ sticker: emoji//261d-fe0f
 
 11/03 일부터 작업 시작
 ![![Project/TREED/#^Table1]]
-1,195,000 원
+
 
 
 ```dataview
