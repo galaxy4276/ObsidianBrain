@@ -67,7 +67,9 @@
     "Spaces/Home///Project/Project/Vetnamese",
     "Spaces/Home///Project/Project/Songdo Dev Fest",
     "Spaces/Home///Project/Project/Vetnamese",
-    "Spaces/Home///Area"
+    "Spaces/Home///Area",
+    "Spaces/Home///Project",
+    "Spaces/Home///Project/Project/ESG WEB"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -99,7 +101,8 @@
     "Spaces/resources",
     "Spaces/Home",
     "Project/Songdo Dev Fest",
-    "Project/Vetnamese Vetnames"
+    "Project/Vetnamese Vetnames",
+    "Project/ESG WEB"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
