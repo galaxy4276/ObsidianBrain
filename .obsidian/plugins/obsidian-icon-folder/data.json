@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 4,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "none",
@@ -25,7 +25,8 @@
     "iconInTitleEnabled": true,
     "iconsBackgroundCheckEnabled": true,
     "iconInFrontmatterEnabled": false,
-    "iconsInNotesEnabled": true
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
   },
   "Area/Spring/@Import 탐구.md": "BoBxlSpringBoot",
   "Area/Java": "BoBxlJava",

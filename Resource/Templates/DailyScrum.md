@@ -1,15 +1,25 @@
 ---
-tags: daily-scrum
-banner: https://images.unsplash.com/photo-1698350732656-b65a85ab8442?auto=format&fit=crop&q=80&w=2837&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+tags:
+  - "#daily-scrum"
 sticker: emoji//1f33b
+created: <% tp.file.creation_date('DD-MM-YYYY' + ' ' + 'HH:mm') %>
+banner:
+---
+---
+# <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, DD MMMM YYYY") %>
+<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD').subtract(1, 'd').format('YYYY-MM-DD') %>|Yesterday]]
+[[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD').add(1, 'd').format('YYYY-MM-DD') %>|Tomorrow]] >>
+
+> [!tip] Quote of the Day  
+> > <% tp.web.daily_quote() %>
+
 ---
 
-
-#  😀 Today Job List
+#  😀 Daily Quests
 - [ ] read Medium Columns (fixed)
 
 
-# 🙂 Have Done Yesterday
+# 🙂 Have Done
 
 
 
@@ -19,4 +29,4 @@ sticker: emoji//1f33b
 > Job 을 진행하면서 탐구해야하는 주제나 내용 또는 메모를 의미합니다.
 
 
-[[<% tp.date.yesterday("YYYY-MM-DD") %>]]
+---

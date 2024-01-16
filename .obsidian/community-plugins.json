@@ -9,5 +9,7 @@
   "table-editor-obsidian",
   "highlightr-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "calendar"
+  "calendar",
+  "templater-obsidian",
+  "obsidian-banners"
 ]
