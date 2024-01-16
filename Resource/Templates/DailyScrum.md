@@ -6,8 +6,7 @@ created: <% tp.file.creation_date('DD-MM-YYYY' + ' ' + 'HH:mm') %>
 banner:
 ---
 # <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, DD MMMM YYYY") %>
-<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD').subtract(1, 'd').format('YYYY-MM-DD') %>|Yesterday]]
-[[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD').add(1, 'd').format('YYYY-MM-DD') %>|Tomorrow]] >>
+<< [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD').subtract(1, 'd').format('YYYY-MM-DD') %>|Yesterday]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD').add(1, 'd').format('YYYY-MM-DD') %>|Tomorrow]] >>
 
 > [!tip] Quote of the Day  
 > > <% tp.web.daily_quote() %>
