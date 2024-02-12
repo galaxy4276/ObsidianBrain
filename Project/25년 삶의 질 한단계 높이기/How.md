@@ -23,6 +23,13 @@ https://www.dabangapp.com/room/65c1b9d1399bcd7f39c1989b
 ![[How-20240212103330392.webp|429]]
 **800,000원**
 
+### 32U90G
+![[How-20240212112656549.webp|240]]
+**800,000원**
+
+### Personal Computer
+**400 만원**
+
 # 핸드폰
 
 
