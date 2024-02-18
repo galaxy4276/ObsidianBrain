@@ -3,5 +3,6 @@
   "theme": "obsidian",
   "textFontFamily": "Pretendard",
   "interfaceFontFamily": "Pretendard",
-  "cssTheme": "Things"
+  "cssTheme": "Things",
+  "baseFontSize": 14
 }
