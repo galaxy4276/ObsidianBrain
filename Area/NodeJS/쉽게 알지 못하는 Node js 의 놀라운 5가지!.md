@@ -10,7 +10,7 @@ setTimeout, setInterval, console 은 JS로 구현된 것이 아닌 각 런타임
 ## Node.js 와 JavaScript, V8, Libuv 간의 C++ Bridge
 
 Node.js 는 엄밀히 말해, Libuv 를 추가하고 작업 일정 비동기화 함수를 만들어 Chrome 의 V8 엔진 동작을 확장하는 도구이다.
-
+``
 아래 영상은 JS 런타임에 custom print 및 setTimeout 함수를 도입하는 방법에 대해 설명한다. 
 ![[0_FxQUb83W_0esCW3d.gif.gif]]
 
