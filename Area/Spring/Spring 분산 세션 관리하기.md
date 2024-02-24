@@ -1,5 +1,5 @@
 ---
-banner: Archive/images/springboot-banner-01.jpg.jpg
+banner: "Archive/images/springboot-banner-01.jpg.jpg"
 tags: spring, session, authenication
 ---
 # 분산 세션이 필요한 이유
