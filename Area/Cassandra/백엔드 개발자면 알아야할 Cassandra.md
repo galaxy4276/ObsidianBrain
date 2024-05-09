@@ -53,7 +53,7 @@ Cassandra 의 분산형 접근 방식은 단일 장애 지점이 없음을 보�
 멤테이블은 데이터가 메모리에 먼저 기록되므로 빠른 쓰기 작업이 가능합니다.
 
 ### Step 4. SSTable Data File
-
+멤테이블이 가득 차면 데이터는 SSTable(정렬된 문자열 테이블) 데이터 파일이라는 온디스크 스토리지 형식으로 플러시됩니다. SSTable은 효율적인 읽기 작업을 가능하게 하는 정렬된 불변 데이터 파일입니다.
 
 # References
 ### [Cassandra Architecture Every Backend Developer Should Know](https://medium.com/@somalchakrabortyy?source=post_page-----6d9d248a7463--------------------------------)]
