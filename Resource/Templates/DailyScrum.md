@@ -29,8 +29,15 @@ banner:
 
 ---
 
-# 3학년 1학기 시간표
+# 모의 토익 응시
+![[DailyScrum-20240516114540719.webp]]
 
-![[DailyScrum-20240311175339690.webp|447]]
----
+# 사건 정보
+2024고합64 - 법원사건번호
+032-860-1703
+국선변호인
+재판일자: 5월 27일 월요일 오후 4시
 
+# 대전 청년 월세 지원
+https://djhousing.or.kr/
+https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005253
