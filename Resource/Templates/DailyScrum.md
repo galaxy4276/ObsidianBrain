@@ -15,16 +15,7 @@ banner:
 
 #  😀 Daily Quests
 - [ ] read Medium Columns (fixed)
-- [ ] 오브젝트 1장 진행
-- [ ] Zustand 분석
-- [ ] [SayNo] 2개 이상 읽기
-- [ ] 이지조인 월요일 업무 처리
-- [ ] Unity 기초 공부하기
-- [ ] 영어 회화 강의 참여하기
-- [ ] 영어 회화 강의 과제하기
-- [ ] 멋사 백엔드 과제하기
-- [ ] QT  참여하기
-- [ ] 국가근로 신청 현황 확인
+
 # 🙂 Have Done
 
 
