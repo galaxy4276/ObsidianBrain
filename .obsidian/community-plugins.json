@@ -11,5 +11,9 @@
   "calendar",
   "templater-obsidian",
   "obsidian-banners",
-  "image-converter"
+  "image-converter",
+  "automatic-tags",
+  "editing-toolbar",
+  "pomodoro-timer",
+  "treefocus"
 ]
