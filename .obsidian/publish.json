@@ -4,9 +4,6 @@
   "included": [],
   "excluded": [
     "Area/DailyScrum",
-    "Area/hbu",
-    "Archive",
-    "Resource",
-    "publish"
+    "Area/hbu"
   ]
 }
