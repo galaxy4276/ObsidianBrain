@@ -2,5 +2,9 @@
   "siteId": "d9d0a9202289ab0faa511b626db36660",
   "host": "publish-01.obsidian.md",
   "included": [],
-  "excluded": []
+  "excluded": [
+    "Area/DailyScrum",
+    "Area/hbu",
+    "publish"
+  ]
 }
