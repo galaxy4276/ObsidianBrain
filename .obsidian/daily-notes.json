@@ -1,6 +1,6 @@
 {
   "folder": "Area/DailyScrum",
   "format": "YYYY-MM-DD",
-  "autorun": true,
+  "autorun": false,
   "template": "Resource/Templates/DailyScrum"
 }
