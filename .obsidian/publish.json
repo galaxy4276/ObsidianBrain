@@ -5,6 +5,8 @@
   "excluded": [
     "Area/DailyScrum",
     "Area/hbu",
-    "publish"
+    "publish",
+    "Archive",
+    "Resource"
   ]
 }
