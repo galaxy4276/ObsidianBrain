@@ -6,12 +6,12 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiBrandPowershell",
+      "FabDocker",
       "BoBxlTypescript",
       "BoBxlSpringBoot",
       "RiReactjsFill",
-      "BoBxlPostgresql",
-      "BoBxlNodejs",
-      "RiChromeLine"
+      "BoBxlPostgresql"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -42,5 +42,13 @@
   "Area/RDBMS": "BoBxlPostgresql",
   "Area/React": "RiReactjsFill",
   "Area/Spring": "BoBxlSpringBoot",
-  "Area/TypeScript": "BoBxlTypescript"
+  "Area/TypeScript": "BoBxlTypescript",
+  "Area/Docker": {
+    "iconName": "FabDocker",
+    "iconColor": "#4294ff"
+  },
+  "Area/Shell Script": {
+    "iconName": "TiBrandPowershell",
+    "iconColor": "#b53b7c"
+  }
 }
