@@ -38,7 +38,10 @@
   "Area/컴퓨터 사이언스": "RiComputerFill",
   "Area/HTTP": "RiChromeLine",
   "Area/JPA & Hibernate": "BoBxlJava",
-  "Area/NodeJS": "BoBxlNodejs",
+  "Area/NodeJS": {
+    "iconName": "BoBxlNodejs",
+    "iconColor": "#6ed760"
+  },
   "Area/RDBMS": "BoBxlPostgresql",
   "Area/React": "RiReactjsFill",
   "Area/Spring": "BoBxlSpringBoot",

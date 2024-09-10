@@ -83,6 +83,18 @@ function 함수명()
 * \>&2 는 **모든 출력을 강제로 표준 에러로 출력한다는 의미**이다.
 * **종료 코드가 1**은 에러가 발생하며 프로그램이 종료된 것을 의미하며 **종료 상태 코드 0** 은 성공적으로 실행된 것을 의미한다.
 
+# /dev/null
+
+```bash
+if ! docker info >/dev/null 2>&1; then
+    error_exit "Docker daemon is not running. Please start Docker."
+fi
+```
+
+`/dev/null` 은 데이터가 버려지는 특별한 파일이다.
+즉 `>/dev/null` 은 표준 출력을 `/dev/null` 로 리디렉션 처리한다.
+
+`2>&1` 은 표준 에러(stderr) 를 표준 출력(stdout) 으로 리디렉션한다.
 
 
 
