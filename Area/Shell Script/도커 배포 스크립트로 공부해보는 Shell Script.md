@@ -54,6 +54,7 @@ echo "Script completed successfully."
 
 
 # 함수 선언 및 사용
+
 ```bash
 error_exit() {
     echo "$1" >&2
