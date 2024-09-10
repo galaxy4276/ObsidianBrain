@@ -101,7 +101,15 @@ fi
 
 `2>&1` 은 표준 에러(stderr) 를 표준 출력(stdout) 으로 리디렉션한다.
 
+**2. grep -i java ./ > /dev/null 2>&1**
+	• grep -i java ./: 동일하게 “java”라는 단어를 대소문자 구분 없이 검색한다.
+	• > /dev/null: 표준 출력을 /dev/null로 리디렉션하여 모든 결과 출력을 버린다.
+	• 2>&1: 표준 에러를 표준 출력으로 합치고, 그 합쳐진 결과도 /dev/null로 리디렉션된다.
 
+**어떻게 도커가 실행 중이 아닌 것을 아는지:**
+	• docker info 명령이 **실패하면**(반환 값이 0이 아닌 경우), 조건문은 **참**이 된다.
+	• docker info 명령이 성공적으로 실행되면, 종료 상태 코드(Exit Code)가 0이 된다.
+		• 그러나, 도커가 실행 중이 아니거나 문제가 있으면 docker info는 오류를 반환하고, 종료 상태 코드가 0이 아닌 값이된다.
 
 #### [출처 - bash 함수 사용법](https://github.com/lyw1217/TIL/blob/main/Bash/bash_%ED%95%A8%EC%88%98_%EC%82%AC%EC%9A%A9%EB%B2%95.md)
 #### [간단하게 1>, >2, >&2, 2>&1, exec 살펴보기](https://knight76.tistory.com/entry/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-1-2-2-exec%EB%A5%BC-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0)
