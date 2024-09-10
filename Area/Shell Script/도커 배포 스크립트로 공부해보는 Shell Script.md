@@ -91,6 +91,11 @@ if ! docker info >/dev/null 2>&1; then
 fi
 ```
 
+> - `>` : 결과를 파일로 저장 (덮어쓰기)
+> - `>>` : 결과를 파일로 저장 (덮어쓰지 않고 기존 파일에 추가)
+> - `<` : 입력(파일, 텍스트 등)을 명령어에 실행 (덮어쓰기)
+> - `<<` : 입력을 명령어에 실행 (덮어쓰지 않고 기존 파일에 추가)
+
 `/dev/null` 은 데이터가 버려지는 특별한 파일이다.
 즉 `>/dev/null` 은 표준 출력을 `/dev/null` 로 리디렉션 처리한다.
 
@@ -101,3 +106,4 @@ fi
 #### [출처 - bash 함수 사용법](https://github.com/lyw1217/TIL/blob/main/Bash/bash_%ED%95%A8%EC%88%98_%EC%82%AC%EC%9A%A9%EB%B2%95.md)
 #### [간단하게 1>, >2, >&2, 2>&1, exec 살펴보기](https://knight76.tistory.com/entry/%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-1-2-2-exec%EB%A5%BC-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0)
 
+#### [# [Shell Script] 출력 내용의 맨 뒤에 붙는 '2>&1' 의 뜻](https://katfun.tistory.com/190)
