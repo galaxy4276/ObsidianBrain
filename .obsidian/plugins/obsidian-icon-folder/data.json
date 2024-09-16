@@ -44,7 +44,10 @@
   },
   "Area/RDBMS": "BoBxlPostgresql",
   "Area/React": "RiReactjsFill",
-  "Area/Spring": "BoBxlSpringBoot",
+  "Area/Spring": {
+    "iconName": "BoBxlSpringBoot",
+    "iconColor": "#27ec73"
+  },
   "Area/TypeScript": "BoBxlTypescript",
   "Area/Docker": {
     "iconName": "FabDocker",
