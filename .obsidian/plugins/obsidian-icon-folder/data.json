@@ -1,17 +1,17 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "TiBrandPowershell",
-      "FabDocker",
-      "BoBxlTypescript",
-      "BoBxlSpringBoot",
-      "RiReactjsFill",
-      "BoBxlPostgresql"
+      "LiNetwork",
+      "SiHibernate",
+      "SiApachecassandra",
+      "SiNginx",
+      "SiRedis",
+      "TiBrandKotlin"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -26,29 +26,53 @@
     "iconsBackgroundCheckEnabled": true,
     "iconInFrontmatterEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false
   },
   "Area/Spring/@Import 탐구.md": "BoBxlSpringBoot",
-  "Area/Java": "BoBxlJava",
-  "Area/AWS": "BoBxlAws",
+  "Area/Java": {
+    "iconName": "BoBxlJava",
+    "iconColor": "#cc2e2e"
+  },
+  "Area/AWS": {
+    "iconName": "BoBxlAws",
+    "iconColor": "#f86525"
+  },
   "Area/디자인 패턴": "BoBxPalette",
   "Area/시스템 아키텍처": "RiComputerFill",
   "Area/알고리즘 풀이": "RiSketching",
   "Area/자료구조": "RiComputerFill",
   "Area/컴퓨터 사이언스": "RiComputerFill",
   "Area/HTTP": "RiChromeLine",
-  "Area/JPA & Hibernate": "BoBxlJava",
+  "Area/JPA & Hibernate": {
+    "iconName": "SiHibernate",
+    "iconColor": "#999999"
+  },
   "Area/NodeJS": {
     "iconName": "BoBxlNodejs",
     "iconColor": "#6ed760"
   },
-  "Area/RDBMS": "BoBxlPostgresql",
-  "Area/React": "RiReactjsFill",
+  "Area/RDBMS": {
+    "iconName": "BoBxlPostgresql",
+    "iconColor": "#3b3fa5"
+  },
+  "Area/React": {
+    "iconName": "RiReactjsFill",
+    "iconColor": "#38cdff"
+  },
   "Area/Spring": {
     "iconName": "BoBxlSpringBoot",
     "iconColor": "#27ec73"
   },
-  "Area/TypeScript": "BoBxlTypescript",
+  "Area/TypeScript": {
+    "iconName": "BoBxlTypescript",
+    "iconColor": "#2450ff"
+  },
   "Area/Docker": {
     "iconName": "FabDocker",
     "iconColor": "#4294ff"
@@ -56,5 +80,19 @@
   "Area/Shell Script": {
     "iconName": "TiBrandPowershell",
     "iconColor": "#b53b7c"
-  }
+  },
+  "Area/Nginx": {
+    "iconName": "SiNginx",
+    "iconColor": "#17ee69"
+  },
+  "Area/Kotlin": {
+    "iconName": "TiBrandKotlin",
+    "iconColor": "#ea4dff"
+  },
+  "Area/Redis": {
+    "iconName": "SiRedis",
+    "iconColor": "#ff2424"
+  },
+  "Area/Cassandra": "SiApachecassandra",
+  "Area/Network": "LiNetwork"
 }
