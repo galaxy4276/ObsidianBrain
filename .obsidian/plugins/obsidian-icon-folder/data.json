@@ -6,12 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiFunctions",
       "LiNetwork",
       "SiHibernate",
       "SiApachecassandra",
       "SiNginx",
-      "SiRedis",
-      "TiBrandKotlin"
+      "SiRedis"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -94,5 +94,6 @@
     "iconColor": "#ff2424"
   },
   "Area/Cassandra": "SiApachecassandra",
-  "Area/Network": "LiNetwork"
+  "Area/Network": "LiNetwork",
+  "Area/Functional Programming": "RiFunctions"
 }
