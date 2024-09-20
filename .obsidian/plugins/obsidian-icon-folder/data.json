@@ -43,7 +43,10 @@
     "iconName": "BoBxlAws",
     "iconColor": "#f86525"
   },
-  "Area/디자인 패턴": "BoBxPalette",
+  "Area/디자인 패턴": {
+    "iconName": "BoBxPalette",
+    "iconColor": "#6d30fd"
+  },
   "Area/시스템 아키텍처": "RiComputerFill",
   "Area/알고리즘 풀이": "RiSketching",
   "Area/자료구조": "RiComputerFill",
