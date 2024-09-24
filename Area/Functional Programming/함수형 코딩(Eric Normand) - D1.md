@@ -33,7 +33,19 @@
 >	* 전역변수값 바꾸기
 >	* ajax 요청 보내기
 
-   , 
+
+# 함수형 접근법
+#### 암묵적 입/출력 배제하기
+입력과 출력은 명시적이거나 암묵적일 수 있다.
+```javascript
+var total = 0;
+function add_to_total(amount) {
+	console.log("Old total: " + total); // 암묵적 입력(전역변수 입력)
+	total += amount; // 암묵적 출력(전역변수 변경)
+	return total;
+}
+```
+
 
 
 
