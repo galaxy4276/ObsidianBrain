@@ -46,8 +46,10 @@ function add_to_total(amount) {
 }
 ```
 
-
-
+# Copy-On-Write 원칙
+> 1. 복사본 만들기
+> 2. 복사본 변경하기
+> 3. 복사본 리턴하기
 
 # References
 https://yozm.wishket.com/magazine/detail/1485/
