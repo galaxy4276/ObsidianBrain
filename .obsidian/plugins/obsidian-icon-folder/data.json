@@ -6,12 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiComputer",
-      "RiFunctions",
-      "LiNetwork",
-      "SiHibernate",
-      "SiApachecassandra",
-      "SiNginx"
+      "EiTypescript",
+      "EiSpring",
+      "EiRedis",
+      "EiReact",
+      "EiPostgresql",
+      "EiNodejs"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -35,14 +35,8 @@
     "debugMode": false
   },
   "Area/Spring/@Import 탐구.md": "BoBxlSpringBoot",
-  "Area/Java": {
-    "iconName": "BoBxlJava",
-    "iconColor": "#cc2e2e"
-  },
-  "Area/AWS": {
-    "iconName": "BoBxlAws",
-    "iconColor": "#f86525"
-  },
+  "Area/Java": "EiJava",
+  "Area/AWS": "EiAws",
   "Area/디자인 패턴": {
     "iconName": "BoBxPalette",
     "iconColor": "#6d30fd"
@@ -52,52 +46,28 @@
   "Area/자료구조": "RiComputerFill",
   "Area/컴퓨터 사이언스": "RiComputerFill",
   "Area/HTTP": "RiChromeLine",
-  "Area/JPA & Hibernate": {
-    "iconName": "SiHibernate",
-    "iconColor": "#999999"
-  },
-  "Area/NodeJS": {
-    "iconName": "BoBxlNodejs",
-    "iconColor": "#6ed760"
-  },
-  "Area/RDBMS": {
-    "iconName": "BoBxlPostgresql",
-    "iconColor": "#3b3fa5"
-  },
-  "Area/React": {
-    "iconName": "RiReactjsFill",
-    "iconColor": "#38cdff"
-  },
-  "Area/Spring": {
-    "iconName": "BoBxlSpringBoot",
-    "iconColor": "#27ec73"
-  },
-  "Area/TypeScript": {
-    "iconName": "BoBxlTypescript",
-    "iconColor": "#2450ff"
-  },
-  "Area/Docker": {
-    "iconName": "FabDocker",
-    "iconColor": "#4294ff"
-  },
+  "Area/JPA & Hibernate": "EiHibernate",
+  "Area/NodeJS": "EiNodejs",
+  "Area/RDBMS": "EiPostgresql",
+  "Area/React": "EiReact",
+  "Area/Spring": "EiSpring",
+  "Area/TypeScript": "EiTypescript",
+  "Area/Docker": "EiDocker",
   "Area/Shell Script": {
     "iconName": "TiBrandPowershell",
     "iconColor": "#b53b7c"
   },
-  "Area/Nginx": {
-    "iconName": "SiNginx",
-    "iconColor": "#17ee69"
-  },
+  "Area/Nginx": "EiNginx",
   "Area/Kotlin": {
     "iconName": "TiBrandKotlin",
     "iconColor": "#ea4dff"
   },
-  "Area/Redis": {
-    "iconName": "SiRedis",
-    "iconColor": "#ff2424"
-  },
-  "Area/Cassandra": "SiApachecassandra",
+  "Area/Redis": "EiRedis",
+  "Area/Cassandra": "EiCassandra",
   "Area/Network": "LiNetwork",
   "Area/Functional Programming": "RiFunctions",
-  "Area/Interpreter": "LiComputer"
+  "Area/Interpreter": "LiComputer",
+  "Area/ElasticSearch": "EiElasticsearch",
+  "Area/k8s": "EiK8s",
+  "Area/Hanbat University": "EiHbu"
 }

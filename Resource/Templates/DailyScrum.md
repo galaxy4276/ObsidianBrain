@@ -13,11 +13,19 @@ banner:
 
 ---
 
-#  😀 Daily Quests
+#  😀 Tasks Today
 - [ ] read Medium Columns (fixed)
+- [ ] LeetCode 문제 1개 풀이
 
 ---
 
-# 대전 청년 월세 지원
-https://djhousing.or.kr/
-https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005253
+#  😀 Tasks This Week
+
+---
+
+# 🥳 Events 
+
+
+---
+
+# Backlog
