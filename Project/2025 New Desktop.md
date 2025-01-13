@@ -1,6 +1,7 @@
 
 # Pricing
-`SSD` - `솔리다임 P44 Pro M.2 Nvme SSD 2TB` - `178,450`
+`832,450`
+
 # Parts
 ### CPU
 `### AMD 라이젠9-5세대 7950X` - `654,000`
