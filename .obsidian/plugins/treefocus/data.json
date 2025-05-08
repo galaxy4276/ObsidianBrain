@@ -30,6 +30,6 @@
     }
   ],
   "fileOverwrites": {
-    "Area": "HIGHLIGHT"
+    "Area": "DEFAULT"
   }
 }

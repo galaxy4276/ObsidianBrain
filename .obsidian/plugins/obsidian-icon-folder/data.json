@@ -6,12 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAreaChart",
       "EiUnity",
       "EiTypescript",
       "EiSpring",
       "EiRedis",
-      "EiReact",
-      "EiPostgresql"
+      "EiReact"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -70,5 +70,6 @@
   "Area/ElasticSearch": "EiElasticsearch",
   "Area/k8s": "EiK8s",
   "Area/Hanbat University": "EiHbu",
-  "Area/Unity": "EiUnity"
+  "Area/Unity": "EiUnity",
+  "Area": "LiAreaChart"
 }
