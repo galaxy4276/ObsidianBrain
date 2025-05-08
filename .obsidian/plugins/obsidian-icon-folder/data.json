@@ -6,12 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "DeJavaOriginal",
       "LiAreaChart",
       "EiUnity",
       "EiTypescript",
       "EiSpring",
-      "EiRedis",
-      "EiReact"
+      "EiRedis"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -35,7 +35,7 @@
     "debugMode": false
   },
   "Area/Spring/@Import 탐구.md": "BoBxlSpringBoot",
-  "Area/Java": "EiJava",
+  "Area/Java": "DeJavaOriginal",
   "Area/AWS": "EiAws",
   "Area/디자인 패턴": {
     "iconName": "BoBxPalette",
