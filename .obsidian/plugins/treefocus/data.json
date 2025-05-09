@@ -30,6 +30,7 @@
     }
   ],
   "fileOverwrites": {
-    "Area": "DEFAULT"
+    "Area": "DEFAULT",
+    "dev-icons": "DIM"
   }
 }
