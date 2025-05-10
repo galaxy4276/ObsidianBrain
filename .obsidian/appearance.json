@@ -1,8 +1,8 @@
 {
-  "accentColor": "",
+  "accentColor": "#3ba5de",
   "theme": "obsidian",
   "textFontFamily": "Pretendard",
   "interfaceFontFamily": "Pretendard",
   "cssTheme": "Minimal",
-  "baseFontSize": 14
+  "baseFontSize": 18
 }
